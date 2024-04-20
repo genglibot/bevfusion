@@ -10,7 +10,6 @@ FUSERS = Registry("fusers")
 def build_backbone(cfg):
     return BACKBONES.build(cfg)
 
-
 def build_neck(cfg):
     return NECKS.build(cfg)
 
